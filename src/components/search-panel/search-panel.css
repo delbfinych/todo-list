@@ -1,0 +1,12 @@
+.search-panel {
+    padding: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-panel .search-input {
+    width: auto;
+    flex-grow: 1;
+    margin-right: 3px;
+}

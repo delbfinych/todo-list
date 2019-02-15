@@ -1,0 +1,24 @@
+@media screen and (max-width: 510px) {
+
+  .btn-group {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+.btn {
+  color: #764abc;
+}
+.btn-active {
+  background-color: #764abc;
+  color: white;
+}
+.btn:hover {
+  border: 1px solid #764abc;
+  background-color: rgba(183, 79, 188, 1);
+}
+
+.btn:focus {
+  box-shadow: none;
+}

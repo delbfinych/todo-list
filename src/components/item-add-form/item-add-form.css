@@ -1,0 +1,31 @@
+.add-form {
+    display: flex;
+    font-size: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    -webkit-user-select: none;
+    user-select: none;
+
+    align-items: stretch;
+    padding: 10px;
+}
+
+.add-form input {
+    width: auto;
+    flex: 1;
+    outline: none;
+    transition: all 0.5s;
+}
+
+.add-todo-btn {
+    outline: none;
+}
+
+.add-todo-btn:disabled {
+    color: rgba(0, 0, 0, 0.26);
+    pointer-events: none;
+}
+
+.add-form input:focus {
+    border: 1px solid #764abc;
+}

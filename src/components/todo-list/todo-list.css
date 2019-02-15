@@ -1,0 +1,32 @@
+.todo-list .todo {
+    display: flex;
+    font-size: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+
+    padding: 1em;
+    align-items: center;
+    list-style: none;
+}
+.todo-list {
+    margin: 0;
+}
+.todo {
+    position: relative;
+}
+.todo-list {
+    padding: 0;
+}
+
+.todo .checkbox {
+    margin-right: 0.5rem;
+}
+
+.todo button:not(.checkbox) {
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+.todo:hover button:not(.checkbox) {
+    opacity: 1;
+}

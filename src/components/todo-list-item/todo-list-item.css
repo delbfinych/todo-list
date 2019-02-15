@@ -1,0 +1,58 @@
+button.icon {
+    border-radius: 50%;
+    font-size: 24px;
+    height: 32px;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 32px;
+    width: 32px;
+    padding: 0;
+    overflow: hidden;
+    line-height: normal;
+    outline: none;
+}
+
+.checkbox {
+    position: absolute;
+    top: 14px;
+    left: 4px;
+}
+.delete-icon {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+.important-icon {
+    position: absolute;
+    top: 14px;
+    right: 50px;
+}
+
+button .material-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-12px, -12px);
+    line-height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.todo.done * {
+    color: lightgray;
+    transition: color 0.2s;
+}
+
+.todo.done span {
+    text-decoration: line-through;
+}
+
+.todo.important {
+    font-weight: bold;
+    color: #764abc;
+}
+.todo span {
+    max-width: 75%;
+    margin-left: 5%;
+    margin-right: auto;
+    word-wrap: break-word;
+}

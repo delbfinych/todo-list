@@ -1,0 +1,21 @@
+.app-header {
+    background-color: #222;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border-radius: 2px 2px 0 0;
+}
+@media screen and (max-width: 510px) { 
+.app-header {
+    
+    border-radius: 0;
+}
+}
+.app-header h1 {
+    color: #764abc;
+}
+
+.app-header h2 {
+    font-size: 1.2rem;
+}
